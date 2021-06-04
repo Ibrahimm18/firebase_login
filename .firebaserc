@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "logingit-b9efc": {
+      "hosting": {
+        "github-login-firebase": [
+          "logingit-b9efc"
+        ]
+      }
+    }
+  }
+}

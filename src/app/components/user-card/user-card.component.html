@@ -1,0 +1,21 @@
+<div class="card user-card ">
+
+  <div class="background bg-info">
+     <img
+     class = "img-fluid rounded-circle profile-pic border-2 border-white"
+     [src]="user.avatar_url" alt="pic">
+
+  </div>
+
+  <div class="card-body">
+      <h5 class="card-title">
+         Name:  {{user.name}}
+        </h5>
+        <p class="clard-text">BIO: {{user.bio}}</p>
+        <p class="clard-text">Company: {{user.company}}</p>
+        <p class="clard-text">Blog: {{user.blog}}</p>
+        <p class="clard-text">Updated at: {{user.updated_at | date: "short"}}</p>
+
+  </div>
+
+</div>
